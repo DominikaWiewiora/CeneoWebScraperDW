@@ -11,7 +11,7 @@ def extract():
     return render_template("extract.html")
 
 @app.route('/products')
-def product():
+def products():
     return render_template("products.html")
 
 @app.route('/author')
