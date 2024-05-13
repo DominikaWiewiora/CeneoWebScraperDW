@@ -68,3 +68,12 @@ footer p {
     margin: 0; /* Remove default margin from the paragraph */
 }
 
+section {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    left: 30%; 
+    width: 600px; 
+}
