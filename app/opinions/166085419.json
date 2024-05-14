@@ -1,0 +1,187 @@
+[
+    {
+        "opinion_id": "18577545",
+        "author": "d...i",
+        "recommendation": true,
+        "score": 1.0,
+        "content": {
+            "pl": "Produkt wysokiej jakości, sprawia wrażenie dopracowanego. System lokalizacji oparty o LiDAR sprawdza się dobrze, choć trzeba pamiętać że robót nie wjeżdża w przestrzenie węższe niż 1 m na przykład pomiędzy roślinami. Ustawienie ścieżki przejazdu w takiej przestrzeni jest możliwe. Podobnie obrzeża wymagają dokoszenia ręcznego (noże w odległości ok. 10 cm od krawędzi robota). Natomiast wygoda związana z brakiem konieczności montażu przewodu ograniczającego jest nie do przecenienia. I do tego trawa jest koszona przejazdami równoległymi, powstają paski.",
+            "en": "High-quality product, looks refined. The LiDAR-based location system works well, although it must be remembered that the works should not enter spaces narrower than 1 m, for example between plants. It is possible to set a path in such a space. Similarly, edges require manual mowing (knives approximately 10 cm from the edge of the robot). However, the convenience of not having to install the boundary wire cannot be overestimated. Additionally, the grass is mowed in parallel passes, creating strips."
+        },
+        "pros": null,
+        "cons": null,
+        "helpful": 1,
+        "unhelpful": 0,
+        "publish_date": "2024-04-16 12:39:40",
+        "purchase_date": "2024-04-05 15:01:40"
+    },
+    {
+        "opinion_id": "18611500",
+        "author": "a...c",
+        "recommendation": true,
+        "score": 0.9,
+        "content": {
+            "pl": "Na razie działa ok, są tylko 2 strefy, za mało na mój skomplikowany ogród. Aplikacja wspomina, że przy kolejnej aplikacji dojdą kolejne strefy ale jedna już była i nadal są dwie. Aplikacja jest po polsku ale robót nie mówi po polsku. To chyba nie problem jeżeli w zwykłym odkurzaczu opcja języka polskiego jest dostępna. \nPodsumowując: jak się przyłożymy do mapowania i dodamy obszary, na które nie powinien wjeżdżać to działa super. Czekam z niecierpliwością na dodanie jeszcze min 2 dodatkowych obszarów pracy robota abym mógł optymalniej go wykorzystać. Jeżeli przy najbliższych aktualizacjach nie zostaną dodane to będę rozczarowany. A wolałbym być jednak mile rozczarowany bo sprzęt jest wart uwagi. Pozdrawiam Andrzej🤚",
+            "en": "It works ok for now, there are only 2 zones, not enough for my complicated garden. The application mentions that more zones will be added in the next application, but there was already one and there are still two. The application is in Polish, but the works do not speak Polish. This is probably not a problem if the Polish language option is available in a regular vacuum cleaner.\nTo sum up: if we focus on mapping and add areas that it should not enter, it works great. I am looking forward to adding at least 2 additional working areas of the robot so that I can use it more optimally. If they are not added in the next updates, I will be disappointed. But I would rather be pleasantly disappointed because the equipment is worth attention. Regards, Andrzej🤚"
+        },
+        "pros": null,
+        "cons": null,
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2024-04-29 09:11:16",
+        "purchase_date": "2024-04-11 22:35:26"
+    },
+    {
+        "opinion_id": "18593882",
+        "author": "k...n",
+        "recommendation": true,
+        "score": 1.0,
+        "content": {
+            "pl": "Sprzęt prezentuje się świetnie - jak ktoś zwraca uwagę na wygląd, to będzie bardzo zadowolony. Uruchomienie sprzętu i korzystanie z aplikacji bardzo intuicyjne, wszystko odbywa się krok po kroku i bardzo szybko można rozpocząć koszenie.",
+            "en": "The equipment looks great - if someone pays attention to its appearance, they will be very pleased. Starting the equipment and using the application is very intuitive, everything is done step by step and you can start mowing very quickly."
+        },
+        "pros": {
+            "pl": [
+                "cicho pracuje",
+                "intuicyjna aplikacja",
+                "prosta obsługa",
+                "super wygląd"
+            ],
+            "en": [
+                "works quietly",
+                "intuitive application",
+                "simple operation",
+                "great look"
+            ]
+        },
+        "cons": null,
+        "helpful": 1,
+        "unhelpful": 0,
+        "publish_date": "2024-04-22 12:48:30",
+        "purchase_date": "2024-04-16 11:16:47"
+    },
+    {
+        "opinion_id": "18558518",
+        "author": "t...3",
+        "recommendation": true,
+        "score": 1.0,
+        "content": {
+            "pl": "Łatwa konfiguracja bez użycia przewodu ograniczającego oraz anteny GPS. Mam nierówny trawnik z pochyłościami ale kosiarka radzi sobie bardzo dobrze.",
+            "en": "Easy configuration without the use of a boundary wire or GPS antenna. I have an uneven lawn with slopes, but the mower works very well."
+        },
+        "pros": null,
+        "cons": null,
+        "helpful": 2,
+        "unhelpful": 0,
+        "publish_date": "2024-04-09 08:33:40",
+        "purchase_date": "2024-04-03 21:01:48"
+    },
+    {
+        "opinion_id": "18609000",
+        "author": "j...h",
+        "recommendation": true,
+        "score": 1.0,
+        "content": {
+            "pl": "Wart ceny. Instrukcja za mało intuicyjna.",
+            "en": "Worth the price. The instructions are not intuitive enough."
+        },
+        "pros": {
+            "pl": [
+                "cicho pracuje",
+                "prosta obsługa",
+                "super wygląd"
+            ],
+            "en": [
+                "works quietly",
+                "simple operation",
+                "great look"
+            ]
+        },
+        "cons": {
+            "pl": [
+                "intuicyjna aplikacja"
+            ],
+            "en": [
+                "intuitive application"
+            ]
+        },
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2024-04-26 19:27:39",
+        "purchase_date": "2024-04-17 22:58:21"
+    },
+    {
+        "opinion_id": "18628210",
+        "author": "b...c",
+        "recommendation": true,
+        "score": 1.0,
+        "content": {
+            "pl": "Super produkt",
+            "en": "Great product"
+        },
+        "pros": {
+            "pl": [
+                "cicho pracuje",
+                "intuicyjna aplikacja",
+                "prosta obsługa",
+                "super wygląd"
+            ],
+            "en": [
+                "works quietly",
+                "intuitive application",
+                "simple operation",
+                "great look"
+            ]
+        },
+        "cons": null,
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2024-05-07 08:46:38",
+        "purchase_date": "2024-04-11 12:19:41"
+    },
+    {
+        "opinion_id": "18630729",
+        "author": "d...r",
+        "recommendation": true,
+        "score": 1.0,
+        "content": {
+            "pl": "Wszystko ok",
+            "en": "Everything's fine"
+        },
+        "pros": null,
+        "cons": null,
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2024-05-07 23:29:51",
+        "purchase_date": "2024-04-22 09:16:32"
+    },
+    {
+        "opinion_id": "18628677",
+        "author": "b...c",
+        "recommendation": true,
+        "score": 0.9,
+        "content": {
+            "pl": "👍",
+            "en": null
+        },
+        "pros": {
+            "pl": [
+                "cicho pracuje",
+                "intuicyjna aplikacja",
+                "prosta obsługa",
+                "super wygląd"
+            ],
+            "en": [
+                "works quietly",
+                "intuitive application",
+                "simple operation",
+                "great look"
+            ]
+        },
+        "cons": null,
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2024-05-07 09:46:05",
+        "purchase_date": "2024-04-11 12:14:07"
+    }
+]
