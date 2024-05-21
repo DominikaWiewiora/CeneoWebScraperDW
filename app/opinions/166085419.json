@@ -6,7 +6,7 @@
         "score": 1.0,
         "content": {
             "pl": "Produkt wysokiej jakości, sprawia wrażenie dopracowanego. System lokalizacji oparty o LiDAR sprawdza się dobrze, choć trzeba pamiętać że robót nie wjeżdża w przestrzenie węższe niż 1 m na przykład pomiędzy roślinami. Ustawienie ścieżki przejazdu w takiej przestrzeni jest możliwe. Podobnie obrzeża wymagają dokoszenia ręcznego (noże w odległości ok. 10 cm od krawędzi robota). Natomiast wygoda związana z brakiem konieczności montażu przewodu ograniczającego jest nie do przecenienia. I do tego trawa jest koszona przejazdami równoległymi, powstają paski.",
-            "en": "High-quality product, looks refined. The LiDAR-based location system works well, although it must be remembered that the works should not enter spaces narrower than 1 m, for example between plants. It is possible to set a path in such a space. Similarly, edges require manual mowing (knives approximately 10 cm from the edge of the robot). However, the convenience of not having to install the boundary wire cannot be overestimated. Additionally, the grass is mowed in parallel passes, creating strips."
+            "en": "High-quality product, looks refined. The LiDAR-based location system works well, although it must be remembered that the works should not enter spaces narrower than 1 m, for example between plants. It is possible to set a path in such a space. Similarly, edges require manual mowing (knives approximately 10 cm from the edge of the robot). However, the convenience of not having to install the boundary wire cannot be overestimated. Additionally, the grass is mown in parallel passes, creating strips."
         },
         "pros": null,
         "cons": null,
@@ -14,6 +14,35 @@
         "unhelpful": 0,
         "publish_date": "2024-04-16 12:39:40",
         "purchase_date": "2024-04-05 15:01:40"
+    },
+    {
+        "opinion_id": "18653133",
+        "author": "j...k",
+        "recommendation": true,
+        "score": 1.0,
+        "content": {
+            "pl": "Po prawie dwóch tygodniach użytkowania jestem pewien, że A1 spełnia moje oczekiwania - banalnie prosty w instalacji i użytkowaniu (kilkakrotnie modyfikowałem/ulepszałem mapę żeby zminimalizować skrawki do wykończenia wykaszarką), świetnie radzi sobie z trawnikiem i wszelkiego typu przeszkodami (rabaty, drzewa, zwierzęta), cichy, w praktyce niezauważalny dla domowników i sąsiadów (ryczący silnik kosiarki spalinowej to przeszłość, można kosić w nocy), trawnik pięknieje w oczach i nie ma potrzeby usuwania ściętej trawy (ścinki są niezauważalne i pozostają jako naturalny nawóz). Dwie strefy trawnika w moim przypadku są wystarczające. AI i komunikacja przez WiFi mesh i blutooth bez zarzutu na powierzchni blisko 1 tys m2.",
+            "en": "After almost two weeks of use, I am sure that A1 meets my expectations - it is very easy to install and use (I modified/improved the map several times to minimize the scraps to be finished with a brushcutter), it copes perfectly with the lawn and all types of obstacles (flower beds, trees, animals). , quiet, practically unnoticeable to household members and neighbors (the roaring engine of a petrol lawnmower is a thing of the past, you can mow at night), the lawn becomes more beautiful and there is no need to remove the cut grass (the clippings are unnoticeable and remain as a natural fertilizer). Two lawn zones are sufficient in my case. AI and communication via WiFi mesh and Bluetooth are flawless on an area of ​​nearly 1,000 m2."
+        },
+        "pros": {
+            "pl": [
+                "cicho pracuje",
+                "intuicyjna aplikacja",
+                "prosta obsługa",
+                "super wygląd"
+            ],
+            "en": [
+                "works quietly",
+                "intuitive application",
+                "simple operation",
+                "great look"
+            ]
+        },
+        "cons": null,
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2024-05-16 11:11:50",
+        "purchase_date": "2024-05-05 15:02:14"
     },
     {
         "opinion_id": "18611500",
@@ -156,32 +185,57 @@
         "purchase_date": "2024-04-22 09:16:32"
     },
     {
-        "opinion_id": "18628677",
-        "author": "b...c",
-        "recommendation": true,
-        "score": 0.9,
+        "opinion_id": "18658385",
+        "author": "p...l",
+        "recommendation": false,
+        "score": 0.1,
         "content": {
-            "pl": "👍",
-            "en": null
+            "pl": "Aplikacja ma pełno błędów, kosi źle i bardzo długo, system zabezpieczenia przed deszczem nie działa bo kosiarka zatrzymuje się w miejscu. Potrafi wjechać do strefy zakazanej i utknąć, ogólnie co 2 dni muszę ręcznie go przenosić do bazy bo się zatrzymał i rozładował. Jedyna jego zaletą- wygląd - to faktycznie wada bo po tygodniu wypadało by go umyć ... eh, fatalny zakup z mojej strony. Aaaa 2000m2 to on może i kosi ale chyba przez tydzień",
+            "en": "The application is full of errors, it mows incorrectly and takes a very long time, the rain protection system does not work because the mower stops in one place. It can enter a forbidden zone and get stuck, generally I have to manually move it to the base every 2 days because it has stopped and unloaded. Its only advantage - its appearance - is actually a disadvantage because after a week it would have to be washed... eh, a terrible purchase on my part. Aaaand he can mow 2000 m2, but probably for a week"
         },
         "pros": {
             "pl": [
-                "cicho pracuje",
-                "intuicyjna aplikacja",
-                "prosta obsługa",
-                "super wygląd"
+                "cicho pracuje"
             ],
             "en": [
-                "works quietly",
-                "intuitive application",
-                "simple operation",
-                "great look"
+                "works quietly"
             ]
         },
+        "cons": {
+            "pl": [
+                "intuicyjna aplikacja",
+                "prosta obsługa",
+                "super wygląd",
+                "tylko 2 strefy",
+                "zacina się"
+            ],
+            "en": [
+                "intuitive application",
+                "simple operation",
+                "great look",
+                "only 2 zones",
+                "jams"
+            ]
+        },
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2024-05-19 09:33:43",
+        "purchase_date": "2024-04-29 08:24:12"
+    },
+    {
+        "opinion_id": "18653320",
+        "author": "p...6",
+        "recommendation": false,
+        "score": 0.5,
+        "content": {
+            "pl": "Kilka słów na temat urządzenia kupiłem miesiąc temu i …..   słabo się spisuje jeśli masz jakiekolwiek drzewa lub pochylenie terenu co z tego że może pokonywać wzniesienia do 40o skoro traktuje to jako przeszkody i omija teren pokazując na mapie przeszkodę, druga sprawa to taka że jeśli macie wąski trawnik mniej niż 2m to robot się gubi. Wiedząc to nie dokonał bym już tego zakupu. Urządzenie proste w obsłudze intuicyjne.",
+            "en": "A few words about the device I bought a month ago and ... it doesn't work well if you have any trees or slopes, so what if it can overcome slopes up to 40 degrees if it treats them as obstacles and avoids the area by showing the obstacle on the map, the second thing is that if if you have a narrow lawn less than 2 m long, the robot gets lost. Knowing this, I wouldn't make this purchase again. The device is easy to use and intuitive."
+        },
+        "pros": null,
         "cons": null,
         "helpful": 0,
         "unhelpful": 0,
-        "publish_date": "2024-05-07 09:46:05",
-        "purchase_date": "2024-04-11 12:14:07"
+        "publish_date": "2024-05-16 11:53:17",
+        "purchase_date": "2024-04-29 23:52:47"
     }
 ]

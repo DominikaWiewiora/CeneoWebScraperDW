@@ -1,0 +1,45 @@
+[
+    {
+        "opinion_id": "18634689",
+        "author": "k...1",
+        "recommendation": true,
+        "score": 1.0,
+        "content": {
+            "pl": "Firma broni się sama. Jest the best",
+            "en": "The company defends itself. It's the best"
+        },
+        "pros": {
+            "pl": [
+                "moc",
+                "trwałość",
+                "wyposażenie"
+            ],
+            "en": [
+                "power",
+                "durability",
+                "equipment"
+            ]
+        },
+        "cons": null,
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2024-05-09 08:53:20",
+        "purchase_date": "2024-04-27 19:01:33"
+    },
+    {
+        "opinion_id": "18636381",
+        "author": "P...4",
+        "recommendation": true,
+        "score": 1.0,
+        "content": {
+            "pl": "Dobra jakość",
+            "en": "Good quality"
+        },
+        "pros": null,
+        "cons": null,
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2024-05-09 15:18:35",
+        "purchase_date": "2024-04-30 13:20:08"
+    }
+]

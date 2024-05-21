@@ -1,0 +1,26 @@
+{
+    "product_id": "90503002",
+    "product_name": "Karcher T 7 Plus T-Racer 2.644-074.0",
+    "opinions_count": 10,
+    "pros_count": 7,
+    "cons_count": 0,
+    "average_score": 4.9,
+    "score_distribution": {
+        "0.0": 0,
+        "0.5": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "2.5": 0,
+        "3.0": 0,
+        "3.5": 0,
+        "4.0": 0,
+        "4.5": 2,
+        "5.0": 8
+    },
+    "recommendation_distribution": {
+        "true": 10,
+        "false": 0,
+        "NaN": 0
+    }
+}

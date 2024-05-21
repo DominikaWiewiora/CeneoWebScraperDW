@@ -2,6 +2,34 @@
 
 {% block content %}
     {% for product in products %}
-        <div class="card">{{product}}</div>
+        
+        <!--<div class="card">{{product.opinions_count}}</div> -->
+        <!-- On tables -->
+    <div class="table-responsive">
+        <table class="table align-center">
+
+
+        <!-- On rows -->
+        <tr class="table-light"><div class="card">{{product.product_name}}</div>
+
+
+        <!-- On cells (`td` or `th`) -->
+        <td >Number of opinions:<div >{{product.opinions_count}}</div></td>
+        <td >Average score:<div>{{product.average_score}}</div></td>
+        <td >Number of advantages:<div >{{product.pros_count}}</div></td>
+        <td >Number of disadvantages:<div >{{product.cons_count}}</div></td>
+        <td >Recommendation Distribution:<div>{{product.recommendation_distribution}}</div></td>
+    
+
+
+        </tr>
+
+        </table>
+    </div>
+    <button type="button" class="btn btn-dark" onclick="location.href='{{url_for('download_json', product_id=product.product_id)}}'">json</button>
+    <button type="button" class="btn btn-dark" onclick="location.href='{{url_for('download_csv', product_id=product.product_id)}}'">csv</button>
+    <button type="button" class="btn btn-dark" onclick="location.href='{{url_for('download_xlsx', product_id=product.product_id)}}'">xlsx</button>
+    
+   
     {% endfor %}
 {% endblock %}
