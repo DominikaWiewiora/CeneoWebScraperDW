@@ -10,7 +10,7 @@
 
 
         <!-- On rows -->
-        <tr class="table-light"><div class="card">{{product.product_name}}</div>
+        <tr class="table-light"><div class="card" ><a href="{{url_for('product', product_id=product.product_id)}}">{{product.product_name}}</a></div>
 
 
         <!-- On cells (`td` or `th`) -->

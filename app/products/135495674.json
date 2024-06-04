@@ -1,0 +1,26 @@
+{
+    "product_id": "135495674",
+    "product_name": "Quickphos 56 Ge Tabletki Środek Trucizna na Gryzonie i Owady 1Kg",
+    "opinions_count": 10,
+    "pros_count": 8,
+    "cons_count": 0,
+    "average_score": 4.65,
+    "score_distribution": {
+        "0.0": 0,
+        "0.5": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "2.5": 0,
+        "3.0": 0,
+        "3.5": 0,
+        "4.0": 3,
+        "4.5": 1,
+        "5.0": 6
+    },
+    "recommendation_distribution": {
+        "true": 10,
+        "false": 0,
+        "NaN": 0
+    }
+}

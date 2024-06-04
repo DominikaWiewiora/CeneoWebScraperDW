@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+        <p>
+            This is {{product_id}} product Charts file</p>
+
+            <a type="button" class="btn btn-primary mb-3" href="{{url_for('product', product_id=product_id)}}">Opinions</a>
+          
+        
+{% endblock %}

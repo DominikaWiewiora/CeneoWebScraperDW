@@ -2,6 +2,20 @@
 
 {% block content %}
         <p>
-            This is {{product_id}} product file
-        </p>
+            This is {{product_id}} product file</p>
+            <button type="button" class="btn btn-dark" onclick="location.href='{{url_for('download_json', product_id=product_id)}}'">json</button>
+            <button type="button" class="btn btn-dark" onclick="location.href='{{url_for('download_csv', product_id=product_id)}}'">csv</button>
+            <button type="button" class="btn btn-dark" onclick="location.href='{{url_for('download_xlsx', product_id=product_id)}}'">xlsx</button>
+            <a type="button" class="btn btn-primary mb-3" href="{{url_for('charts', product_id=product_id)}}">Charts</a>
+            {{opinions|safe}}
+        
 {% endblock %}
+
+{% block scripts %}
+<script>
+    let table = new DataTable('#opinions', {
+        responsive: true
+});
+</script>
+{% endblock %}
+
