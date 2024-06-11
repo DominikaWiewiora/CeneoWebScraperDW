@@ -84,16 +84,18 @@ def extract():
                 json.dump(product, jf, indent=4, ensure_ascii=False)
                 jf.close()
 
-                if not  os.path.exists("app/charts"):
-                    os.mkdir("app/charts")
+                if not  os.path.exists("app/static"):
+                    os.mkdir("app/static")
+                if not  os.path.exists("app/static/charts"):
+                    os.mkdir("app/static/charts")
                 fig, ax = plt.subplots()
                 score_distribution.plot.bar(color = "hotpink")
                 plt.xlabel("Number of stars")
                 plt.ylabel("Number of opinions")
-                plt.title(f"Score histogram for {product_id} product")
+                plt.title(f"Score histogram for {product_name} product")
                 plt.xticks(rotation = 0)
                 ax.bar_label(ax.containers[0], label_type="edge", fmt = lambda l: int(l) if l else "")
-                plt.savefig(f"app/charts/{product_name}_score.png")
+                plt.savefig(f"app/static/charts/{product_id}_score.png")
                 recommendation_distribution.plot.pie(
                     labels = ["Recommend", "Not recommend", "Indifferent"],
                     label = "",
@@ -101,7 +103,7 @@ def extract():
                     autopct = lambda l: "{:1.1f}%".format(l) if l else ""
                 )
                 plt.title(f"Recommendation shares for {product_name} product")
-                plt.savefig(f"app/charts/{product_id}_recommendation.png")
+                plt.savefig(f"app/static/charts/{product_id}_recommendation.png")
 
                 return redirect(url_for('product', product_id=product_id))
             return render_template("extract.html", error = "Product has no opinions")

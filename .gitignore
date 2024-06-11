@@ -161,3 +161,5 @@ cython_debug/
 
 # app
 /app/opinons/
+/app/products/
+/app/static/charts/
