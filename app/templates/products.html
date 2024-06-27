@@ -3,17 +3,13 @@
 {% block content %}
     {% for product in products %}
         
-        <!--<div class="card">{{product.opinions_count}}</div> -->
-        <!-- On tables -->
+       
     <div class="table-responsive">
         <table class="table align-center">
 
 
-        <!-- On rows -->
+       
         <tr class="table-light"><div class="card" ><a href="{{url_for('product', product_id=product.product_id)}}">{{product.product_name}}</a></div>
-
-
-        <!-- On cells (`td` or `th`) -->
         <td >Number of opinions:<div >{{product.opinions_count}}</div></td>
         <td >Average score:<div>{{product.average_score}}</div></td>
         <td >Number of advantages:<div >{{product.pros_count}}</div></td>

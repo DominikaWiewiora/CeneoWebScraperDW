@@ -1,0 +1,180 @@
+[
+    {
+        "opinion_id": "16883966",
+        "author": "j...a",
+        "recommendation": true,
+        "score": 1.0,
+        "content_pl": "Duży minus za brak menu w języku polskim. \nPlus za jakość wykonania i wygląd.\nO reszcie trudno mi napisać ponieważ jeszcze nie testowalam",
+        "content_eng": "A big minus is the lack of a menu in Polish. \nA plus for the quality of workmanship and appearance.\nIt's hard for me to write about the rest because I haven't tested it yet",
+        "pros": {
+            "pl": [],
+            "eng": null
+        },
+        "cons": {
+            "pl": [],
+            "eng": null
+        },
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2022-12-15 10:29:42",
+        "purchase_date": "2022-12-14 15:30:51"
+    },
+    {
+        "opinion_id": "17207926",
+        "author": "o...5",
+        "recommendation": true,
+        "score": 1.0,
+        "content_pl": "super sprzęt, ekspresowa wysyłka, zapakowana idealnie.",
+        "content_eng": "great equipment, express shipping, perfectly packed.",
+        "pros": {
+            "pl": [
+                "grywalność",
+                "jakość",
+                "możliwości"
+            ],
+            "eng": [
+                "playability",
+                "quality",
+                "possibilities"
+            ]
+        },
+        "cons": {
+            "pl": [],
+            "eng": null
+        },
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2023-03-01 11:36:01",
+        "purchase_date": "2023-02-24 20:32:23"
+    },
+    {
+        "opinion_id": "15603003",
+        "author": "Marcin",
+        "recommendation": true,
+        "score": 1.0,
+        "content_pl": "Bardzo fajna konsola. Córka zadowolona.",
+        "content_eng": "Very nice console. My daughter is satisfied.",
+        "pros": {
+            "pl": [
+                "grywalność",
+                "jakość",
+                "możliwości"
+            ],
+            "eng": [
+                "playability",
+                "quality",
+                "possibilities"
+            ]
+        },
+        "cons": {
+            "pl": [],
+            "eng": null
+        },
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2022-01-24 15:54:16",
+        "purchase_date": "2022-01-21 16:01:50"
+    },
+    {
+        "opinion_id": "16423003",
+        "author": "z...2",
+        "recommendation": true,
+        "score": 0.9,
+        "content_pl": "wszystko w porzadku dziala bez zarzutu",
+        "content_eng": "everything is fine, it works flawlessly",
+        "pros": {
+            "pl": [
+                "grywalność",
+                "jakość",
+                "możliwości"
+            ],
+            "eng": [
+                "playability",
+                "quality",
+                "possibilities"
+            ]
+        },
+        "cons": {
+            "pl": [],
+            "eng": null
+        },
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2022-08-16 10:32:04",
+        "purchase_date": "2022-08-10 21:11:58"
+    },
+    {
+        "opinion_id": "12735820",
+        "author": "m...z",
+        "recommendation": true,
+        "score": 1.0,
+        "content_pl": "zgodny z opisem",
+        "content_eng": "consistent with the description",
+        "pros": {
+            "pl": [
+                "jakość",
+                "możliwości"
+            ],
+            "eng": [
+                "quality",
+                "possibilities"
+            ]
+        },
+        "cons": {
+            "pl": [],
+            "eng": null
+        },
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2020-06-30 12:22:55",
+        "purchase_date": "2020-06-22 17:31:10"
+    },
+    {
+        "opinion_id": "13652715",
+        "author": "p...l",
+        "recommendation": true,
+        "score": 0.9,
+        "content_pl": "Ok",
+        "content_eng": "Approx",
+        "pros": {
+            "pl": [
+                "grywalność",
+                "jakość",
+                "możliwości"
+            ],
+            "eng": [
+                "playability",
+                "quality",
+                "possibilities"
+            ]
+        },
+        "cons": {
+            "pl": [],
+            "eng": null
+        },
+        "helpful": 1,
+        "unhelpful": 0,
+        "publish_date": "2020-12-26 16:26:43",
+        "purchase_date": "2020-12-09 12:33:51"
+    },
+    {
+        "opinion_id": "14451827",
+        "author": "c...1",
+        "recommendation": true,
+        "score": 0.9,
+        "content_pl": "Wspaniały",
+        "content_eng": "Excellent",
+        "pros": {
+            "pl": [],
+            "eng": null
+        },
+        "cons": {
+            "pl": [],
+            "eng": null
+        },
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2021-05-13 16:10:57",
+        "purchase_date": "2021-04-12 15:43:53"
+    }
+]

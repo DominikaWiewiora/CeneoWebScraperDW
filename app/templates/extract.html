@@ -7,7 +7,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
     {% endif %}
-    <form class="cotainer mt-3" method="POST" action="{{url_for('extract')}}">
+    <form class="cotainer d-flex justify-content-center" method="POST" align-items-center action="{{url_for('extract')}}">
         <div class="row g-3 align-items-center">
             <div class="col-auto">
             <label for="product_id" class="form-label">Product code</label> 
@@ -20,11 +20,12 @@
                 Must be 8-10 digits long.
             </span>
             </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-dark">Extract</button>
+            </div>
 
         </div>
         
-        <div class="col-auto">
-        <button type="submit" class="btn btn-primary mb-3">Extract</button>
-        </div>
+        
     </form>
 {% endblock %}

@@ -1,0 +1,191 @@
+[
+    {
+        "opinion_id": "17314358",
+        "author": "m...a",
+        "recommendation": true,
+        "score": 0.9,
+        "content_pl": null,
+        "pros": {
+            "pl": [
+                "ergonomia",
+                "funkcjonalność",
+                "wygląd"
+            ],
+            "en": [
+                "ergonomics",
+                "functionality",
+                "appearance"
+            ]
+        },
+        "cons": null,
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2023-03-24 11:37:09",
+        "purchase_date": "2023-03-23 07:30:41",
+        "content_en": null
+    },
+    {
+        "opinion_id": "12259248",
+        "author": "Użytkownik Ceneo",
+        "recommendation": true,
+        "score": 1.0,
+        "content_pl": null,
+        "pros": null,
+        "cons": null,
+        "helpful": 1,
+        "unhelpful": 0,
+        "publish_date": "2020-04-26 03:16:09",
+        "purchase_date": "2020-03-26 02:00:14",
+        "content_en": null
+    },
+    {
+        "opinion_id": "15524598",
+        "author": "krempy3",
+        "recommendation": true,
+        "score": 1.0,
+        "content_pl": null,
+        "pros": {
+            "pl": [
+                "ergonomia",
+                "wygląd",
+                "wytrzymałość"
+            ],
+            "en": [
+                "ergonomics",
+                "appearance",
+                "resilience"
+            ]
+        },
+        "cons": null,
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2022-01-08 19:06:22",
+        "purchase_date": "2021-12-23 15:01:31",
+        "content_en": null
+    },
+    {
+        "opinion_id": "13812400",
+        "author": "m...z",
+        "recommendation": true,
+        "score": 1.0,
+        "content_pl": null,
+        "pros": null,
+        "cons": null,
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2021-01-21 10:19:19",
+        "purchase_date": "2021-01-18 20:48:50",
+        "content_en": null
+    },
+    {
+        "opinion_id": "12145615",
+        "author": "Jarema",
+        "recommendation": true,
+        "score": 1.0,
+        "content_pl": null,
+        "pros": null,
+        "cons": null,
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2020-04-14 22:33:16",
+        "purchase_date": "2020-03-26 08:45:20",
+        "content_en": null
+    },
+    {
+        "opinion_id": "12689600",
+        "author": "s...i",
+        "recommendation": true,
+        "score": 0.8,
+        "content_pl": null,
+        "pros": null,
+        "cons": null,
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2020-06-22 10:30:12",
+        "purchase_date": "2020-06-16 12:00:45",
+        "content_en": null
+    },
+    {
+        "opinion_id": "12329390",
+        "author": "Kamila",
+        "recommendation": true,
+        "score": 1.0,
+        "content_pl": null,
+        "pros": null,
+        "cons": null,
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2020-05-04 14:47:40",
+        "purchase_date": "2020-04-24 14:45:49",
+        "content_en": null
+    },
+    {
+        "opinion_id": "15426178",
+        "author": "m...2",
+        "recommendation": true,
+        "score": 1.0,
+        "content_pl": null,
+        "pros": {
+            "pl": [
+                "ergonomia",
+                "wygląd",
+                "wytrzymałość"
+            ],
+            "en": [
+                "ergonomics",
+                "appearance",
+                "resilience"
+            ]
+        },
+        "cons": null,
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2021-12-25 17:25:28",
+        "purchase_date": "2021-12-12 21:42:37",
+        "content_en": null
+    },
+    {
+        "opinion_id": "15913533",
+        "author": "a...z",
+        "recommendation": true,
+        "score": 0.9,
+        "content_pl": null,
+        "pros": {
+            "pl": [
+                "ergonomia",
+                "wygląd"
+            ],
+            "en": [
+                "ergonomics",
+                "appearance"
+            ]
+        },
+        "cons": {
+            "pl": [
+                "wytrzymałość"
+            ],
+            "en": [
+                "resilience"
+            ]
+        },
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2022-04-04 12:54:16",
+        "purchase_date": "2022-03-30 06:40:58",
+        "content_en": null
+    },
+    {
+        "opinion_id": "12325927",
+        "author": "Użytkownik Ceneo",
+        "recommendation": true,
+        "score": 1.0,
+        "content_pl": null,
+        "pros": null,
+        "cons": null,
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2020-05-04 10:13:01",
+        "purchase_date": "2020-04-22 06:42:39",
+        "content_en": null
+    }
+]

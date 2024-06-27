@@ -1,0 +1,110 @@
+[
+    {
+        "opinion_id": "18120978",
+        "author": "d...s",
+        "recommendation": true,
+        "score": 1.0,
+        "content_pl": "bardzo dobre wykonanie, dużo elementów - kolejna świetna pozycja z serii Wsiąść do pociągu",
+        "content_eng": "very good workmanship, many elements - another great item from the Get on the Train series",
+        "pros": {
+            "pl": [
+                "fabuła",
+                "grywalność",
+                "jakość"
+            ],
+            "eng": [
+                "plot",
+                "playability",
+                "quality"
+            ]
+        },
+        "cons": {
+            "pl": [],
+            "eng": null
+        },
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2023-11-21 14:36:14",
+        "purchase_date": "2023-11-05 17:42:54"
+    },
+    {
+        "opinion_id": "18559733",
+        "author": "Damian",
+        "recommendation": true,
+        "score": 1.0,
+        "content_pl": "jeszcze nie grane",
+        "content_eng": "not played yet",
+        "pros": {
+            "pl": [],
+            "eng": null
+        },
+        "cons": {
+            "pl": [],
+            "eng": null
+        },
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2024-04-09 13:16:44",
+        "purchase_date": "2024-03-13 23:58:55"
+    },
+    {
+        "opinion_id": "18208208",
+        "author": "s...p",
+        "recommendation": true,
+        "score": 1.0,
+        "content_pl": "Super, polecam",
+        "content_eng": "Great, I recommend it",
+        "pros": {
+            "pl": [],
+            "eng": null
+        },
+        "cons": {
+            "pl": [],
+            "eng": null
+        },
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2023-12-14 09:05:36",
+        "purchase_date": "2023-11-03 11:19:59"
+    },
+    {
+        "opinion_id": "18414139",
+        "author": "s...3",
+        "recommendation": true,
+        "score": 1.0,
+        "content_pl": "Super produkt",
+        "content_eng": "Great product",
+        "pros": {
+            "pl": [],
+            "eng": null
+        },
+        "cons": {
+            "pl": [],
+            "eng": null
+        },
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2024-02-20 07:53:48",
+        "purchase_date": "2024-01-31 15:55:18"
+    },
+    {
+        "opinion_id": "18664072",
+        "author": "p...l",
+        "recommendation": true,
+        "score": 1.0,
+        "content_pl": "Dobra gra",
+        "content_eng": "Good game",
+        "pros": {
+            "pl": [],
+            "eng": null
+        },
+        "cons": {
+            "pl": [],
+            "eng": null
+        },
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2024-05-21 12:04:54",
+        "purchase_date": "2024-04-24 10:32:24"
+    }
+]

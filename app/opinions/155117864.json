@@ -1,0 +1,42 @@
+[
+    {
+        "opinion_id": "18682191",
+        "author": "p...k",
+        "recommendation": true,
+        "score": 0.8,
+        "content_pl": "Jakość wykonania w porządku, za tą cenę wart uwagi. Minusem jest brak androida 11 i google tv, co ma wpływ na komfort obslugi. Drugim minusem jest brak wsparcia dla Netflixa, w preinstalowanej aplikacji poruszanie się po menu jest bardzo utrudnione. Moim zdaniem warto dopłacić do modelu Wanbo da Vinci Pro  1 i korzystać bez żadnych ograniczeń z wszystkich aplikacji. Polecam ten drugi model 😉",
+        "content_eng": "The quality of workmanship is okay, for this price it is worth attention. The downside is the lack of Android 11 and Google TV, which affects the comfort of use. The second disadvantage is the lack of support for Netflix, in the pre-installed application it is very difficult to navigate the menu. In my opinion, it is worth paying extra for the Wanbo da Vinci Pro 1 model and using all applications without any restrictions. I recommend the second model 😉",
+        "pros": {
+            "pl": [],
+            "eng": null
+        },
+        "cons": {
+            "pl": [],
+            "eng": null
+        },
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2024-05-28 17:32:44",
+        "purchase_date": "2024-04-16 16:03:31"
+    },
+    {
+        "opinion_id": "18592128",
+        "author": "m...z",
+        "recommendation": true,
+        "score": 1.0,
+        "content_pl": "Projektor świetnej jakości, model New jest o wiele lepszy niż jego poprzednik, ogromny plus za auto ostrość, gdzie nie trzeba już ręcznie korygować obrazu.",
+        "content_eng": "A projector of great quality, the New model is much better than its predecessor, a huge plus for auto focus, where you no longer need to manually correct the image.",
+        "pros": {
+            "pl": [],
+            "eng": null
+        },
+        "cons": {
+            "pl": [],
+            "eng": null
+        },
+        "helpful": 0,
+        "unhelpful": 0,
+        "publish_date": "2024-04-22 08:10:12",
+        "purchase_date": "2024-03-30 19:31:55"
+    }
+]

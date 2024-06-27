@@ -1,21 +1,141 @@
 {% extends "base.html" %}
 
 {% block content %}
-        <p>
-            This is {{product_id}} product file</p>
-            <button type="button" class="btn btn-dark" onclick="location.href='{{url_for('download_json', product_id=product_id)}}'">json</button>
-            <button type="button" class="btn btn-dark" onclick="location.href='{{url_for('download_csv', product_id=product_id)}}'">csv</button>
-            <button type="button" class="btn btn-dark" onclick="location.href='{{url_for('download_xlsx', product_id=product_id)}}'">xlsx</button>
-            <a type="button" class="btn btn-primary mb-3" href="{{url_for('charts', product_id=product_id)}}">Charts</a>
-            {{opinions|safe}}
-        
+<p>This is {{ product_id }} product file</p>
+<button type="button" class="btn btn-dark" onclick="location.href='{{ url_for('download_json', product_id=product_id) }}'">json</button>
+<button type="button" class="btn btn-dark" onclick="location.href='{{ url_for('download_csv', product_id=product_id) }}'">csv</button>
+<button type="button" class="btn btn-dark" onclick="location.href='{{ url_for('download_xlsx', product_id=product_id) }}'">xlsx</button>
+<a type="button" class="btn btn-dark" href="{{ url_for('charts', product_id=product_id) }}">Charts</a>
+    </div>
+
+    <div class="table-responsive">
+        <table id="opinions" class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Opinion ID</th>
+                    <th>Author</th>
+                    <th>Recommendation</th>
+                    <th>Score</th>
+                    <th>Content (PL)</th>
+                    <th>Content (ENG)</th>
+                    <th>Pros</th>
+                    <th>Cons</th>
+                    <th>Helpful</th>
+                    <th>Unhelpful</th>
+                    <th>Publish Date</th>
+                    <th>Purchase Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for opinion in opinions %}
+                <tr>
+                    <td>{{ opinion.opinion_id }}</td>
+                    <td>{{ opinion.author }}</td>
+                    <td>{{ opinion.recommendation }}</td>
+                    <td>{{ opinion.score }}</td>
+                    <td>
+                        {% if opinion.content_pl %}
+                            <div class="content-container">
+                                <div class="truncate-text">
+                                    {% if opinion.content_pl|length > 100 %}
+                                        {{ opinion.content_pl|safe|truncate(100) }}
+                                        <button class="btn btn-link see-more-btn" type="button">
+                                            See more
+                                        </button>
+                                    {% else %}
+                                        {{ opinion.content_pl }}
+                                    {% endif %}
+                                </div>
+                                <div class="full-content d-none">
+                                    {{ opinion.content_pl|safe }}
+                                    <button class="btn btn-link see-less-btn" type="button">
+                                        See less
+                                    </button>
+                                </div>
+                            </div>
+                        {% else %}
+                            -
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if opinion.content_eng %}
+                            <div class="content-container">
+                                <div class="truncate-text">
+                                    {% if opinion.content_eng|length > 100 %}
+                                        {{ opinion.content_eng|safe|truncate(100) }}
+                                        <button class="btn btn-link see-more-btn" type="button">
+                                            See more
+                                        </button>
+                                    {% else %}
+                                        {{ opinion.content_eng }}
+                                    {% endif %}
+                                </div>
+                                <div class="full-content d-none">
+                                    {{ opinion.content_eng|safe }}
+                                    <button class="btn btn-link see-less-btn" type="button">
+                                        See less
+                                    </button>
+                                </div>
+                            </div>
+                        {% else %}
+                            -
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if opinion.pros %}
+                            {% for key, value in opinion.pros.items() %}
+                                {% if value %}
+                                    <strong>{{ key|capitalize }}:</strong> {{ value }}<br>
+                                {% endif %}
+                            {% endfor %}
+                        {% else %}
+                            -
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if opinion.cons %}
+                            {% for key, value in opinion.cons.items() %}
+                                {% if value %}
+                                    <strong>{{ key|capitalize }}:</strong> {{ value }}<br>
+                                {% endif %}
+                            {% endfor %}
+                        {% else %}
+                            -
+                        {% endif %}
+                    </td>
+                    <td>{{ opinion.helpful }}</td>
+                    <td>{{ opinion.unhelpful }}</td>
+                    <td>{{ opinion.publish_date }}</td>
+                    <td>{{ opinion.purchase_date }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
 {% endblock %}
 
 {% block scripts %}
 <script>
-    let table = new DataTable('#opinions', {
-        responsive: true
-});
+    $(document).ready(function() {
+        
+        $('.see-more-btn').on('click', function(e) {
+            e.preventDefault();
+            var container = $(this).closest('.content-container');
+            container.find('.truncate-text').addClass('d-none');
+            container.find('.full-content').removeClass('d-none');
+            container.find('.see-more-btn').addClass('d-none');
+            container.find('.see-less-btn').removeClass('d-none');
+        });
+
+        
+        $('.see-less-btn').on('click', function(e) {
+            e.preventDefault();
+            var container = $(this).closest('.content-container');
+            container.find('.truncate-text').removeClass('d-none');
+            container.find('.full-content').addClass('d-none');
+            container.find('.see-more-btn').removeClass('d-none');
+            container.find('.see-less-btn').addClass('d-none');
+        });
+    });
 </script>
 {% endblock %}
-
